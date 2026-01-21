@@ -1,0 +1,5 @@
+Branch URL: https://github.com/Fila91bot/novi-tokeni/tree/chore/init-monorepo-structure
+Kako provjeriti lokalno:
+
+git fetch origin
+git checkout -b chore/init-monorepo-structure origin/chore/init-monorepo-structure
