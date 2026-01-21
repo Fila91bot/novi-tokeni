@@ -1,0 +1,26 @@
+moj-ai-projekt/
+├── app/                  # Laravel backend
+├── bootstrap/
+├── config/
+├── database/
+├── public/
+│   └── index.html        # Laravel će servirati Vue app ovdje (ili SPA build)
+├── resources/
+│   ├── css/
+│   ├── js/               # ← OVDJE ide Vue 3 app (Vite)
+│   │   ├── app.js        # entry point
+│   │   ├── main.js       # ili main.ts ako koristiš TypeScript
+│   │   ├── App.vue
+│   │   ├── router/
+│   │   │   └── index.js
+│   │   ├── views/
+│   │   │   ├── ChatView.vue
+│   │   │   └── StudioView.vue
+│   │   └── components/
+│   └── views/            # Blade ako trebaš server-side stranice
+├── routes/
+│   └── api.php           # API rute za chat / AI pozive
+├── vite.config.js        # ← Vite config u rootu (standard za Laravel + Vite)
+├── composer.json
+├── package.json          # ← npm dependencije (Vue, Pinia/Vuex, ai sdk...)
+└── .env
